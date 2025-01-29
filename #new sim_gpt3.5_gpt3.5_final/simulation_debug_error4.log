@@ -1,0 +1,24 @@
+2024-12-12 22:42:20,597 INFO:Use pytorch device_name: cpu
+2024-12-12 22:42:20,597 INFO:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-12 22:42:20,599 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-12-12 22:42:20,800 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-12-12 22:42:20,910 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-12-12 22:42:21,038 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2024-12-12 22:42:21,160 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-12-12 22:42:21,289 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-12-12 22:42:21,418 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2024-12-12 22:42:21,911 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-12 22:42:22,093 DEBUG:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6694
+2024-12-12 22:42:22,202 DEBUG:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6694
+2024-12-12 22:42:27,073 INFO:Use pytorch device_name: cpu
+2024-12-12 22:42:27,073 INFO:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-12 22:42:27,074 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-12-12 22:42:27,251 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-12-12 22:42:27,371 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-12-12 22:42:27,475 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2024-12-12 22:42:27,580 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-12-12 22:42:27,693 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-12-12 22:42:27,802 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2024-12-12 22:42:28,251 DEBUG:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-12 22:42:28,429 DEBUG:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6694
+2024-12-12 22:42:28,559 DEBUG:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6694
