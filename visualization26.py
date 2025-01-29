@@ -16,14 +16,13 @@ st.set_page_config(page_title="Carla vs. Charles - Focused Dashboard", layout="w
 
 #paths to your CSV files
 DATA_DIRS = [
-    Path(r'D:\Documents\Adverserial_LLMs_Charles_Carla\#new sim_gemini_gemini_final\simulation_results100_updated_verified.csv'),
-    Path(r'D:\Documents\Adverserial_LLMs_Charles_Carla\#new sim_gemini_gpt3.5_final\simulation_results_100results_updated_verified.csv'),
-    Path(r'D:\Documents\Adverserial_LLMs_Charles_Carla\#new sim_gemini_gpt4omini_final\simulation_results_100results_updated_verified.csv'),
-    Path(r'D:\Documents\Adverserial_LLMs_Charles_Carla\#new sim_gpt3.5_gemini_final\simulation_results100results_updated_verified.csv'),
-    Path(r'D:\Documents\Adverserial_LLMs_Charles_Carla\#new sim_gpt3.5_gpt3.5_final\simulation_results100results_updated_verified.csv'),
-    Path(r'D:\Documents\Adverserial_LLMs_Charles_Carla\#new sim_gpt3.5_gpt4omini_final\simulation_results_100results_updated_verified.csv'),
-    Path(r'D:\Documents\Adverserial_LLMs_Charles_Carla\#new sim_gpt4omini_gemini_final_test\simulation_results_100results_updated_verified.csv')
-    
+    current_dir / '#new sim_gemini_gemini_final' / 'simulation_results100_updated_verified.csv',
+    current_dir / '#new sim_gemini_gpt3.5_final' / 'simulation_results_100results_updated_verified.csv',
+    current_dir / '#new sim_gemini_gpt4omini_final' / 'simulation_results_100results_updated_verified.csv',
+    current_dir / '#new sim_gpt3.5_gemini_final' / 'simulation_results100results_updated_verified.csv',
+    current_dir / '#new sim_gpt3.5_gpt3.5_final' / 'simulation_results100results_updated_verified.csv',
+    current_dir / '#new sim_gpt3.5_gpt4omini_final' / 'simulation_results_100results_updated_verified.csv',
+    current_dir / '#new sim_gpt4omini_gemini_final_test' / 'simulation_results_100results_updated_verified.csv'
 ]
 
 # Define the mapping from folder names to human-readable titles
