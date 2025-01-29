@@ -14,6 +14,9 @@ import statsmodels.formula.api as smf  # Added for regression models
 
 st.set_page_config(page_title="Carla vs. Charles - Focused Dashboard", layout="wide")
 
+# **Define current_dir here**
+current_dir = Path(__file__).parent  # This line defines current_dir
+
 #paths to your CSV files
 DATA_DIRS = [
     current_dir / '#new sim_gemini_gemini_final' / 'simulation_results100_updated_verified.csv',
